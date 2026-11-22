@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
   projects:
     - name: zephyr
-      remote: zmkfirmware
-      revision: v4.1.0+zmk-fixes
+      url: https://github.com/ArtemYurov/zephyr
+      revision: feature/pinnacle-secondary-tap-scroll-v4.1.0+zmk-fixes
       clone-depth: 1
       import:
         name-blocklist:
